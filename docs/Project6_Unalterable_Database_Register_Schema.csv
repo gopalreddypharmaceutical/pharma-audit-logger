@@ -1,0 +1,7 @@
+Database Column Field,Data Schema Structure,GAMP 5 Parameter Mapping,Security Cryptographic Level,PLC Memory Link Source,Required Signature Type,Audit Log Output Example
+Log_Entry_Timestamp,DATETIME (YYYY-MM-DD HH:MM:SS),System Audit Field,Immutable System Clock,N/A,System Asserted,2026-10-20 12:41:33
+User_Account_ID,VARCHAR(32) Unique User Key,Operator Privilege Check,SHA-256 Hashed String,N/A,Electronic Dual-Factor pin,gvennapusa_pharma
+Target_Tag_Address,VARCHAR(64) Register Tag,CPP Identification Variable,Plain-Text Registry Link,Rack01_Slot03_CH0.CFG_Pump_RPM,System Asserted,CFG_Pump_RPM
+Legacy_Value_Record,REAL Floating Value,Pre-Modification Data State,Read-Only Data Snapshot,PLC_Old_Value_Buffer,System Asserted,450.0
+Updated_Value_Record,REAL Floating Value,Post-Modification Data State,Read-Only Data Snapshot,PLC_New_Value_Buffer,System Asserted,475.0
+Justification_Code,INT Standard Dictionary Key,GxP Change Rationale,Plain-Text Data Index,N/A,Operator Selection Code,104 (Viscosity Correction)
